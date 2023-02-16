@@ -1,0 +1,17 @@
+pane	aliyun	1	1	:*	1	MitchConnerdeMacBook-Pro.local	:/Users/mitchconner	1	zsh	:
+pane	dev-105	1	1	:*	1	root@casabonita-dev:~	:/Users/mitchconner	1	zsh	:
+pane	dev-105	2	0	:##-	1	nvim	:/Users/mitchconner	1	zsh	:
+pane	local	1	1	:*	1	MitchConnerdeMacBook-Pro.local	:/Users/mitchconner/.tmux	1	zsh	:
+pane	test-147	1	1	:*	1	MitchConnerdeMacBook-Pro.local	:/Users/mitchconner	1	ssh	:ssh root@10.0.10.147
+pane	test-236	1	0	:-	1	root@box: ~	:/Users/mitchconner	1	scaf	:scaf
+pane	test-236	2	0	:	1	@backend:/	:/Users/mitchconner	1	scaf	:scaf
+pane	test-236	3	1	:*	1	root@box: ~/saasdun	:/Users/mitchconner	1	scaf	:scaf
+window	aliyun	1	:zsh	1	:*	5934,316x60,0,0,15	:
+window	dev-105	1	:normal	1	:*	ce40,178x38,0,0,3	off
+window	dev-105	2	:saasdun	0	:##-	5d31,316x62,0,0,12	off
+window	local	1	:tmux	1	:*	bf04,318x63,0,0,7	off
+window	test-147	1	:main	1	:*	5fb6,318x63,0,0,17	off
+window	test-236	1	:main	0	:-	bf01,318x63,0,0,4	off
+window	test-236	2	:saasdun-log	0	:	bf06,318x63,0,0,9	off
+window	test-236	3	:saasdun	1	:*	5fb0,318x63,0,0,11	off
+state	test-236	test-147
