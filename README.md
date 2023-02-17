@@ -4,6 +4,6 @@
 cd
 git clone https://github.com/fengtianru117/.tmux.git
 ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
+ln -s -f .tmux/.tmux.conf.local
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
